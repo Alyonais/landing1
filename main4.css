@@ -1,0 +1,832 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #282b2f;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*-----------Шапка, меню, лого--------------*/
+
+
+.heroimg {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0;
+    margin-bottom: -5px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+    left: 210px;
+}
+
+.menu {
+    width: 31px;
+    height: 42px;
+    position: absolute;
+    top: 108px;
+    right: 210px;
+}
+
+.hero div {
+    position: absolute;
+    top: 370px;
+    left: 210px;
+    font-family: 'Open Sans', sans-serif;    
+    color: black;
+}
+
+.big {
+    font-size: 35px;
+}
+
+.small {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.small span {
+    font-weight: bold;
+}
+
+
+/*-----------About--------------*/
+
+
+.left {
+    width: 50%;
+    max-width: 800px;
+    height: auto;
+    float: left;
+}
+
+.right {
+    background-color: #f3f1ef;
+    width: 50%;
+    max-width: 800px;
+    height: 500px;
+    float: right;
+    
+}
+
+.right div {
+    padding-top:112px;
+    padding-left: 60px;
+}
+
+.sed {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;    
+    text-transform: uppercase;
+    color: #666666;
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+
+.right div p {
+    color: #666666;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+/*-----------Gallery--------------*/
+
+
+.snow {
+    width: 25%;
+    max-width: 400px;
+    height: auto;
+    float: left;
+    clear: both;
+}
+.snow2 {
+    width: 25%;
+    max-width: 400px;
+    height: auto;
+    float: left;
+}
+.skate {
+    width: 25%;
+    max-width: 400px;
+    height: auto;
+    float: left;
+}
+.mountin {
+    width: 25%;
+    max-width: 400px;
+    height: auto;
+    float: right;
+}
+
+/*-----------Instagram--------------*/
+
+#insta1 {
+    background-color: #3f729b;
+    width: 50%;
+    max-width: 800px;
+    padding-top: 30px;
+}
+
+#insta {
+    background-color: #3f729b;
+    width: 50%;
+    max-width: 800px;
+    height: 514px;
+    float: left;
+
+}
+
+#insta div {
+    padding-top:120px;
+    padding-left: 210px;
+}
+
+#insta .instagram {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;    
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+
+#insta p {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+}
+
+.buttoninst {
+    padding-top: 30px;
+}
+
+.ski {
+    width: 25%;
+    max-width: 400px;
+    height: auto;
+    float: left;
+}
+
+.blue {
+    width: 25%;
+    max-width: 400px;
+    height: 514px;
+    float: right;
+    background-color: #3f729b;
+}
+
+/*-----------Music--------------*/
+
+.music {
+    float: right;
+    clear: both;
+}
+
+#music {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+.video {
+    background-color: #212227;
+    width: 25%;
+    height: 514px;
+    position: absolute;
+    left: 405px;
+    top: 2427px;
+}
+
+ .self p {
+    color: #2ebd59;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 140px;
+    padding-left: 60px;
+    text-transform: uppercase;
+    line-height: 35px;
+}
+
+.video .self p span {
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 15px;
+}
+ 
+.director p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 45px;
+    padding-left: 60px;
+}
+
+.buttonplay {
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+/*-----------Spotify, Itunes--------------*/
+
+#spotify {
+    width: 50%;
+    max-width: 800px;
+    height: 514px;
+    float: left;
+    background-color: #2ebd59;
+    margin-top: -4px;
+}
+#spotify div {
+    padding-top:140px;
+    padding-left: 105px;
+}
+
+#spotify .spot {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;    
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+
+#spotify p {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+}
+
+.buttonspot {
+    padding-top: 45px;
+}
+
+#itunes {
+    width: 50%;
+    max-width: 800px;
+    height: 514px;
+    float: right;
+    margin-top: -4px;
+}
+
+#itunes div {
+    padding-top: 140px;
+    padding-left: 105px;
+}
+
+#itunes .itunes {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;    
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+
+#itunes p {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+}
+
+.buttonitunes {
+    padding-top: 45px;
+}
+
+/*-----------Footer--------------*/
+
+#first {
+    background-color: #212227;
+    width: 32%;
+    max-width: 508px;
+    height: 605px;
+    float: left;
+}
+
+#first div {
+    padding-top:100px;
+    padding-left: 210px;
+}
+
+#first .amazing {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;    
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+#first p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f9f9f9;
+    padding-bottom: 30px;
+}
+
+#first #copy {
+    text-transform: uppercase;
+    padding-bottom: 107px;
+}
+
+#second {
+    background-color: #212227;
+    width: 18%;
+    max-width: 290px;
+    height: 605px;
+    float: left;
+}
+
+#second div {
+    padding-top:100px;
+    padding-left: 100px;
+}
+
+#second .contact, .follow {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;    
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+#second  div p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f9f9f9;
+    padding-bottom: 80px;
+}
+
+#second .follow {
+    padding-left: 100px;
+    
+}
+
+#second  img {
+        padding-left: 100px;
+
+}
+
+
+#third {
+    background-color: #212227;
+    width: 52%;
+    max-width: 802px;
+    height: 605px;
+    float: right;
+}
+
+#third div {
+    padding-top:100px;
+    padding-left: 110px;
+    padding-bottom: 80px;
+}
+
+#third div .email {
+    background-color: #4d4e52;
+    padding: 25px;
+    border: 0px;
+    width: 430px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+#third div .submit {
+    background-color: #4d4e52;
+    padding: 25px 25px 27px 25px;
+    border: 0px;
+    margin-left: -5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ 
+#third div .submit img {
+    width: 18px;
+    height: auto;
+}
+
+#third .sub, .sponsor {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;    
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+#third  div p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f9f9f9;
+    padding-bottom: 20px;
+}
+
+#third .sponsor {
+    padding-left: 110px;
+    
+}
+
+#third img {
+        padding-left: 20px;
+}
+
+#third .sponsors {
+    padding-left: 90px;
+    padding-top: 10px;
+}
+
+/*-----------Для 1366px--------------*/
+
+
+@media  screen and (min-width:1240px) and (max-width:1366px) {
+    
+    .right {
+        height: 426px;
+    }   
+    
+    .right div {
+        padding-top: 80px;
+    }
+    
+    #insta {
+        height: 439px;
+    }
+    
+    #insta div {
+        padding-left: 130px;
+        padding-top: 80px;
+    }
+    
+    .blue {
+         height: 438px;
+    }
+    
+    #music {
+        float: right;
+        margin-bottom: 5px;
+        width: 86%;
+    }
+    
+    .video {
+        position: absolute;
+        top: 2001px;
+        left: 260px;
+        height: 439px;
+        
+    }
+    
+    .self p {
+        padding-top: 80px;
+        padding-left: 50px;
+    }
+    
+    .director p {
+        padding-top: 40px;
+        padding-left: 50px;
+    }
+    
+    #spotify {
+        height: 439px;
+
+    }
+    
+    #spotify div {
+        padding-left: 130px;
+        padding-top: 80px;
+    }
+    
+     #itunes {
+        height: 439px;
+    }
+    
+    #itunes div {
+        padding-left: 130px;
+        padding-top: 80px;
+    }
+    
+    #first {
+        width: 30%;
+    }
+    
+    #first div {
+        padding-top: 60px;
+        padding-left: 130px;
+    }
+    
+    #second div {
+        padding-top: 60px;
+        padding-left: 60px;    
+    }
+    
+    #second img {
+        padding-left: 60px;
+    }
+    
+    #second .follow {
+        padding-left: 60px;
+    }
+    
+    #third div {
+        padding-top: 60px;
+        padding-left: 60px;
+    }
+    
+    #third .sponsor {
+        padding-left: 60px;
+    }
+    
+     #third .sponsors {
+        padding-left: 40px;
+    }
+    
+}
+
+/*-----------Для 1240px--------------*/
+
+
+@media  screen and (min-width:1024px) and (max-width:1240px) {
+    .right {
+        height: 387px;        
+    }
+    
+    .right div {
+        padding-top: 70px;
+    }
+    
+    #insta {
+        height: 399px;
+    }
+    
+    #insta div {
+        padding-left: 120px;
+        padding-top: 70px;
+    }
+    
+    .blue {
+         height: 398px;
+    }
+    
+    #music {
+        float: right;
+        margin-bottom: 5px;
+        width: 77.5%;
+
+    }
+    
+    .video {
+        position: absolute;
+        top: 1881px;
+        left: 314px;
+        height: 399px;
+        
+    }
+    
+    .self p {
+        padding-top: 70px;
+        padding-left: 40px;
+    }
+    
+    .director p {
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    
+    #spotify {
+        height: 399px;
+
+    }
+    
+    #spotify div {
+        padding-left: 120px;
+        padding-top: 70px;
+    }
+    
+     #itunes {
+        height: 399px;
+    }
+    
+    #itunes div {
+        padding-left: 120px;
+        padding-top: 70px;
+    }
+    
+    #first {
+        width: 29%;
+    }
+    
+    #first div {
+        padding-top: 50px;
+        padding-left: 120px;
+    }
+    
+    #second div {
+        padding-top: 50px;
+        padding-left: 50px;    
+    }
+    
+    #second img {
+        padding-left: 50px;
+    }
+    
+    #second .follow {
+        padding-left: 50px;
+    }
+    
+    #third {
+        width: 53%;
+    }
+    
+    #third div {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    
+    #third .sponsor {
+        padding-left: 50px;
+    }
+    
+     #third .sponsors {
+        padding-left: 30px;
+    }
+}
+
+
+/*-----------Для 1024px--------------*/
+
+
+@media  screen and (min-width:768px) and (max-width:1024px) {
+
+.right {
+        height: 320px;        
+    }
+    
+    .right div {
+        padding-top: 60px;
+    }
+    
+    .right div p {
+        font-size: 20px;
+    }
+    
+     #insta {
+        height: 329px;
+    }
+    
+    #insta div {
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+    
+    #insta .instagram {
+        font-size: 16px;
+        padding-bottom: 35px;
+    }
+    
+    #insta div p {
+        font-size: 20px;
+    }
+    
+    .blue {
+         height: 328px;
+    }
+    
+    .video {
+        position: absolute;
+        top: 1553px;
+        left: 230px;
+        height: 329px;
+    }
+    
+    .self p {
+        padding-top: 50px;
+        padding-left: 30px;
+        font-size: 14px;
+    }
+    
+    .video .self p span {
+        font-size: 20px; 
+        line-height: 10px;
+    }
+    
+    .director p {
+        padding-top: 10px;
+        padding-left: 30px;
+        font-size: 14px;
+    }
+    
+    .buttonplay {
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    
+    #spotify {
+        height: 329px;
+    }
+    
+    #spotify div {
+        padding-left: 100px;
+        padding-top: 59px;
+    }
+    
+    #spotify .spot {
+        font-size: 16px;
+        padding-bottom: 35px;
+    }
+    
+    #spotify div p {
+        font-size: 20px;
+    }
+    
+    #itunes {
+        height: 329px;
+    }
+    
+    #itunes div {
+        padding-left: 100px;
+        padding-top: 59px;
+    }
+    
+    #itunes .itunes {
+        font-size: 16px;
+        padding-bottom: 35px;
+    }
+    
+    #itunes div p {
+        font-size: 20px;
+    }
+    
+    #first {
+        width: 30%;
+    }
+    
+    #first div {
+        padding-top: 35px;
+        padding-left: 70px;
+    }
+    
+    #second div {
+        padding-top: 35px;
+        padding-left: 35px;    
+    }
+    
+    #second img {
+        padding-left: 35px;
+    }
+    
+    #second .follow {
+        padding-left: 35px;
+    }
+    #third {
+        width: 52%;
+    }
+    
+    #third div {
+        padding-top: 35px;
+        padding-left: 35px;
+    }
+    
+    #third .sponsor {
+        padding-left: 35px;
+    }
+    
+     #third .sponsors {
+        padding-left: 15px;
+    }
+    
+    #third div .email {
+        padding: 20px;
+        width: 350px;
+        
+    }
+    
+    #third div .submit img {
+        width: 13px;
+        height: auto;
+        padding-bottom: -15px;
+    }
+
+}
+    
+     
+
+
